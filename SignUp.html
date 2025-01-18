@@ -3,30 +3,33 @@
   <head>
     <meta charset = "UTF-8">
     <meta name = "Description" content = "Log in Page">
-    <link rel = "stylesheet" href = "\LoginPageStyle.css">
+    <link rel = "stylesheet" href = "\Stylesheet.css">
   </head>
   <body>
     
-    <h1>Welcome</h1>
+    <h1>Create an Account</h1>
     
     <form action = "/submit" method = "Post">
       
-      <div> 
+      <div class="input"> 
         <p><label for = 'email'> Email address </label></p>
         <input type = "email" id = "email" name = "email">
       </div>
       
-      <div>
+      <div class="input">
         <p><label for ='password'> Password </label></p>
         <input type = "password" id = "password" name = "password">
       </div>
       
-      <button type = "submit"> Sign in </button>
+      <button type = "submit"> Sign up </button>
     
     </form>
+      <div class = "line-beside-or">or</div>
+      <div class = "line-beside-or">  <img src="/image/fb.png" alt="fb" style="width: 160px;"></div>
+      <img src="/image/fb.png" alt="fb" class="fbLogo">
 
       <p>Already have an account?</p>
-      <a href="/LogInPage/LoginPage.html">Log In</a>
+      <a href = "LoginPage.html">Log In</a>
 
 
   </body>

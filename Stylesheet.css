@@ -1,0 +1,26 @@
+
+.line-beside-or {
+  display: flex;
+  align-items: center; /* 垂直中心 */
+  justify-content: center; /* 水平中心 */
+}
+.line-beside-or:before, .line-beside-or:after {
+  border-top: 1px solid;
+  content: "";
+  width: 3em; /* 線の長さ */
+}
+.line-beside-or:before {
+  margin-right: 1em; /* 文字の右隣 */
+}
+.line-beside-or:after {
+  margin-left: 1em; /* 文字の左隣 */
+}
+
+.fbLogo{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 160px;
+   
+
+}
