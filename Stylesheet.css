@@ -1,3 +1,22 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px; /* 画面全体の高さを確保 */
+  margin: 0;
+}
+
+.frame{
+
+  text-align: center;
+  box-sizing: border-box;
+  width: 350px;
+  height: 450px;
+  border:10px solid;
+  border-color: rgb(43, 134, 187)
+  
+  
+}
 
 .line-beside-or {
   display: flex;
