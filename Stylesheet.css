@@ -29,6 +29,13 @@ ul{
   padding: 0;
 }
 
+label {
+  display: inline-block; /* インラインブロックで表示 */
+  padding-bottom: 5px; /* テキストとアンダーラインの間に5pxのスペース */
+  border-bottom: 3px dotted rgb(109, 170, 228); /* 点線のアンダーライン */
+  color: black;
+}
+
 button{
 
   background-color: black;
@@ -53,30 +60,40 @@ width: 500px;
 
 }
 
-.frame{
+.frameSignUp,.frameLogin{
 
   text-align: center;
   box-sizing: border-box;
   width:  680px;
   height: 600px;
   border:10px solid;
-  border-color: rgb(43, 134, 187);
+ 
   padding-top:20px ;
+  border-radius: 5%;
   
+}
+.frameSignUp{
+  border-color: rgb(43, 134, 187);
+}
+.frameLogin{
+  border-color: rgb(216, 104, 151);
+
 }
 
 .line-beside-or {
   display: flex;
   align-items: center; /* 垂直中心 */
   justify-content: center; /* 水平中心 */
+  font-size: 18px;
 }
 .line-beside-or:before, .line-beside-or:after {
   border-top: 1px solid;
   content: "";
-  width: 14em; /* 線の長さ */
+  width: 13em; /* 線の長さ */
 }
 .line-beside-or:before {
   margin-right: 1em; /* 文字の右隣 */
+
 }
 .line-beside-or:after {
   margin-left: 1em; /* 文字の左隣 */

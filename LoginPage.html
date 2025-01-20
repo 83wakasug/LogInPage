@@ -6,28 +6,43 @@
     <link rel = "stylesheet" href = "Stylesheet.css">
   </head>
   <body>
-    
-    <h1>Welcome back</h1>
-    
-    <form action = "/submit" method = "Post">
+    <div class="frameLogin">
+      <header>
+        <h1>Login</h1>
+      </header>
       
-      <div> 
-        <p><label for = 'email'> Email address </label></p>
-        <input type = "email" id = "email" name = "email">
-      </div>
+      <main>
+        <form action = "/submit" method = "Post">
+  
+            <div class = "input"> 
+              <p><label for = 'email'> Email address </label></p>
+              <input type = "email" id = "email" name = "email" required>
+            </div>
+            
+            <div class = "input">
+              <p><label for ='password'> Password </label></p>
+              <input type = "password" id = "password" name = "password" required>
+            </div>
+     
+          
+          <button type = "submit"> Log In </button>
+        
+        </form>
+          
+        <div class = "line-beside-or"> or </div>
+         
+        <ul>
+          <li>  <img src = "image/fb.png" alt = "Sign up with Facebook" class="fbLogo"></li>
+          <li>  <img src = "image/googleicon.png" alt = "Sign up with Facebook" class="googleLogo"></li>
+        </ul>
+       
+      </main>
       
-      <div>
-        <p><label for ='password'> Password </label></p>
-        <input type = "password" id = "password" name = "password">
-      </div>
-      
-      <button type = "submit"> Sign in </button>
-    
-    </form>
-
-    <p>Don't have an account?</p>
-    <a href = "SignUp.html"> Sign Up</a>
-
+      <footer>
+        <p> Don't have an account? </p>
+        <a href = "SignUp.html"> Sign Up </a>
+      </footer>
+    </div>
 
   </body>
 </html>
