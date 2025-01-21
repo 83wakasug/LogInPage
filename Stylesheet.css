@@ -18,6 +18,7 @@ body {
   align-items: center;
   height: 700px; /* 画面全体の高さを確保 */
   margin: 0;
+  background-color: rgb(206, 249, 255);
 }
 
 ul{
@@ -29,11 +30,16 @@ ul{
   padding: 0;
 }
 
-label {
+.lbform {
   display: inline-block; /* インラインブロックで表示 */
   padding-bottom: 5px; /* テキストとアンダーラインの間に5pxのスペース */
   border-bottom: 3px dotted rgb(109, 170, 228); /* 点線のアンダーライン */
   color: black;
+}
+form {
+  display: flex;
+  flex-direction: column; /* 子要素を縦並びに */
+  align-items: center; /* フォーム全体を中央揃え */
 }
 
 button{
@@ -49,6 +55,7 @@ button{
   font-weight: bold;
   border:none;
 }
+
 button:hover{
 background-color: rgb(66, 64, 64);
 
@@ -60,16 +67,33 @@ width: 500px;
 
 }
 
+
+
+.savePassword {
+  width: 16px;  /* チェックボックスの幅 */
+  height: 16px; /* チェックボックスの高さ */
+}
+
+label {
+  display: flex;  /* 横並びにする */
+  align-items: center;  /* 垂直方向に中央揃え */
+  gap: 5px;  /* チェックボックスとテキストの間隔 */
+}
+
+label input {
+  margin: 0;  /* 余計なマージンをリセット */
+}
 .frameSignUp,.frameLogin{
 
   text-align: center;
   box-sizing: border-box;
   width:  680px;
-  height: 600px;
+  height: 650px;
   border:10px solid;
  
   padding-top:20px ;
   border-radius: 5%;
+  background-color: White;
   
 }
 .frameSignUp{

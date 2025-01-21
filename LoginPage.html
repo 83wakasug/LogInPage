@@ -15,17 +15,19 @@
         <form action = "/submit" method = "Post">
   
             <div class = "input"> 
-              <p><label for = 'email'> Email address </label></p>
+              <p><label class="lbform"  for = 'email'> Email address </label></p>
               <input type = "email" id = "email" name = "email" required>
             </div>
             
             <div class = "input">
-              <p><label for ='password'> Password </label></p>
+              <p><label class="lbform"  for ='password'> Password </label></p>
               <input type = "password" id = "password" name = "password" required>
             </div>
-     
-          
-          <button type = "submit"> Log In </button>
+           
+            <label>
+              <input class ="savePassword" type="checkbox" name="SavePassword" value="Password">Save Password
+            </label>
+            <button type = "submit"> Log In </button>
         
         </form>
           
