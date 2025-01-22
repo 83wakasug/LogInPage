@@ -67,7 +67,11 @@ width: 500px;
 
 }
 
+.cb{
 
+  margin-top: 15px;
+
+}
 
 .savePassword {
   width: 16px;  /* チェックボックスの幅 */
@@ -75,13 +79,13 @@ width: 500px;
 }
 
 label {
-  display: flex;  /* 横並びにする */
-  align-items: center;  /* 垂直方向に中央揃え */
-  gap: 5px;  /* チェックボックスとテキストの間隔 */
+  display: flex; 
+  align-items: center; 
+  gap: 5px;  
 }
 
 label input {
-  margin: 0;  /* 余計なマージンをリセット */
+  margin: 0;  
 }
 .frameSignUp,.frameLogin{
 
