@@ -69,19 +69,32 @@ width: 500px;
 
 .cb{
 
+<<<<<<< HEAD
   margin-top: 15px;
 
+=======
+.lbPassword{
+  margin-top:15px;
+  
+>>>>>>> 6ffe770b23429c1824b25ebe9c90fc9d9971b120
 }
 
 .savePassword {
+  
   width: 16px;  /* チェックボックスの幅 */
   height: 16px; /* チェックボックスの高さ */
 }
 
 label {
+<<<<<<< HEAD
   display: flex; 
   align-items: center; 
   gap: 5px;  
+=======
+  display: flex;  /* 横並びにする */
+  align-items: right;  /* 垂直方向に中央揃え */
+  gap: 5px;  /* チェックボックスとテキストの間隔 */
+>>>>>>> 6ffe770b23429c1824b25ebe9c90fc9d9971b120
 }
 
 label input {
