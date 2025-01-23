@@ -1,26 +1,34 @@
+
+
+/* Universal selector for consistent box sizing */
 *{
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
+/* Styling for paragraph text */
 p{
  font-weight: bold;
  font-size: 20px;
 
 }
+
+/* Input field container styling */
 .input{
 
   font-size:30px;
 }
 
+
+/* Body styling */
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 700px; /* 画面全体の高さを確保 */
-  margin: 0;
+  height: 700px; 
+  margin: 0;/* Removes default margins */
   background-color: rgb(206, 249, 255);
 }
-
+/* Unordered list styling for social login icons */
 ul{
   display: flex;
   list-style-type: none;
@@ -30,18 +38,24 @@ ul{
   padding: 0;
 }
 
+
+/* Label styling for input fields */
 .lbform {
-  display: inline-block; /* インラインブロックで表示 */
-  padding-bottom: 5px; /* テキストとアンダーラインの間に5pxのスペース */
-  border-bottom: 3px dotted rgb(109, 170, 228); /* 点線のアンダーライン */
+  display: inline-block; /* Keeps the label inline with elements */
+  padding-bottom: 5px;
+  border-bottom: 3px dotted rgb(109, 170, 228);
   color: black;
 }
+
+/* Styling for the form */
 form {
   display: flex;
-  flex-direction: column; /* 子要素を縦並びに */
-  align-items: center; /* フォーム全体を中央揃え */
+  flex-direction: column; 
+  align-items: center; 
 }
 
+
+/* Button styling */
 button{
 
   background-color: black;
@@ -56,101 +70,112 @@ button{
   border:none;
 }
 
+
+
+/* Button hover effect */
+
 button:hover{
 background-color: rgb(66, 64, 64);
 
 }
-
+/* Input field styling */
 input{
 height: 38px;
 width: 500px;
 
 }
 
-.cb{
+/* Checkbox label styling */
 
-<<<<<<< HEAD
-  margin-top: 15px;
-
-=======
 .lbPassword{
   margin-top:15px;
-  
->>>>>>> 6ffe770b23429c1824b25ebe9c90fc9d9971b120
-}
+  }
 
+
+  /* Checkbox styling */
 .savePassword {
   
-  width: 16px;  /* チェックボックスの幅 */
-  height: 16px; /* チェックボックスの高さ */
+  width: 16px;  
+  height: 16px; 
 }
 
+/* Label alignment for checkboxes */
 label {
-<<<<<<< HEAD
+
   display: flex; 
   align-items: center; 
   gap: 5px;  
-=======
-  display: flex;  /* 横並びにする */
-  align-items: right;  /* 垂直方向に中央揃え */
-  gap: 5px;  /* チェックボックスとテキストの間隔 */
->>>>>>> 6ffe770b23429c1824b25ebe9c90fc9d9971b120
+
 }
 
 label input {
   margin: 0;  
 }
+
+/* Main container for login and signup frames */
 .frameSignUp,.frameLogin{
 
   text-align: center;
-  box-sizing: border-box;
-  width:  680px;
-  height: 650px;
+  width:  680px; /* Frame width */
+  height: 700px;/* Frame height */
   border:10px solid;
  
   padding-top:20px ;
-  border-radius: 5%;
+  border-radius: 5%; /* Rounded corners */
   background-color: White;
   
 }
 .frameSignUp{
   border-color: rgb(43, 134, 187);
 }
+
+
 .frameLogin{
   border-color: rgb(216, 104, 151);
 
 }
-
+/* Styling for the separator line and text */
 .line-beside-or {
-  display: flex;
-  align-items: center; /* 垂直中心 */
-  justify-content: center; /* 水平中心 */
-  font-size: 18px;
+  display: flex; /* Aligns text and lines horizontally */
+  align-items: center; 
+  justify-content: center;
+  font-size: 18px; /* Font size for the 'or' text */
 }
+
+/* Decorative lines on either side of 'or' */
 .line-beside-or:before, .line-beside-or:after {
-  border-top: 1px solid;
-  content: "";
-  width: 13em; /* 線の長さ */
+  border-top: 1px solid;/* Thin horizontal line */
+  content: "";/* Adds an empty content block */
+  width: 13em;  /* Line width */
 }
+
+
+/* Space on the left of the 'or' text */
 .line-beside-or:before {
-  margin-right: 1em; /* 文字の右隣 */
+  margin-right: 1em; 
 
 }
+
+/* Space on the right of the 'or' text */
 .line-beside-or:after {
-  margin-left: 1em; /* 文字の左隣 */
+  margin-left: 1em; 
 }
 
-
+/* Facebook logo styling */
 .fbLogo{
     display:block;
     margin-top: 15px;
     margin-left: auto;
     margin-right:auto;
-    width: 50px;
+    width: 50px; /* Logo size */
     margin-right:10px;
 }
+
+
+
+/* Google logo styling */
 .googleLogo{
   margin-top: 15px;
   display: block;
-  width: 50px;
+  width: 50px; /* Logo size */
 }

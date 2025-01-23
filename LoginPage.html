@@ -6,53 +6,45 @@
     <link rel = "stylesheet" href = "Stylesheet.css">
   </head>
   <body>
-    <div class="frameLogin">
+    
+    <div class="frameLogin">  <!-- Container for the login frame -->
       <header>
-        <h1>Welcome Back</h1>
+        <h1>Welcome! Log In Page</h1> <!-- Main heading of the page -->
       </header>
       
       <main>
-        <form action = "/submit" method = "Post">
+      <!-- Form for login input -->
+        <form action = "/submit" method = "Post">   
   
             <div class = "input"> 
-              <p><label class="lbform"  for = 'email'> Email address </label></p>
-              <input type = "email" id = "email" name = "email" required>
+              <p><label class="lbform"  for = 'email'> Email address </label></p><!-- Input field for email -->
+              <input type = "email" id = "email" placeholder="email" name = "email" required> <!-- Input field for email -->
             </div>
             
             <div class = "input">
-              <p><label class="lbform"  for ='password'> Password </label></p>
-              <input type = "password" id = "password" name = "password" required>
+              <p><label class="lbform"  for ='password'> Password </label></p><!-- Label for the password input -->
+              <input type = "password" id = "password" placeholder="password" name = "password" required><!-- Input field for password -->
             </div>
            
-<<<<<<< HEAD
-            <div class="cb">
-              <label>
-                <input class ="savePassword" type="checkbox" name="SavePassword" value="Password">Save Password
-              </label>
-            </div>
-              <button type = "submit"> Log In </button>
-            
-=======
             <label class="lbPassword">
-              <input class ="savePassword" type="checkbox" name="SavePassword" value="Password">Save Password
+              <input class ="savePassword" type="checkbox" name="SavePassword" value="Password">Save Password  <!-- Checkbox for saving password -->
             </label>
-            <button type = "submit"> Log In </button>
->>>>>>> 6ffe770b23429c1824b25ebe9c90fc9d9971b120
+            <button type = "submit"> Log In </button><!-- Submit button -->
         
         </form>
           
-        <div class = "line-beside-or"> or </div>
+        <div class = "line-beside-or"> or </div><!-- Separator for alternative login options -->
          
         <ul>
-          <li>  <img src = "image/fb.png" alt = "Sign up with Facebook" class="fbLogo"></li>
-          <li>  <img src = "image/googleicon.png" alt = "Sign up with Facebook" class="googleLogo"></li>
+          <li>  <img src = "image/fb.png" alt = "Sign up with Facebook" class="fbLogo"></li> <!-- Facebook login -->
+          <li>  <img src = "image/googleicon.png" alt = "Sign up with Facebook" class="googleLogo"></li><!-- Google login -->
         </ul>
        
       </main>
       
       <footer>
-        <p> Don't have an account? </p>
-        <a href = "SignUp.html"> Sign Up </a>
+        <p> Don't have an account? </p><!-- Prompt for users without accounts -->
+        <a href = "SignUp.html"> Sign Up </a><!-- Link to sign-up page -->
       </footer>
     </div>
 
