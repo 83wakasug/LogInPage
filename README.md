@@ -1,5 +1,4 @@
 # LogInPage
-# Project Title
 
 Login and Sign-Up Pages with HTML and CSS
 
@@ -12,19 +11,6 @@ This project consists of two HTML pages: a login page and a sign-up page. Both p
 - `LoginPage.html`: The HTML file for the login page.
 - `SignUp.html`: The HTML file for the sign-up page.
 - `Stylesheet.css`: The CSS file for styling both the login and sign-up pages.
-
-## Login Page
-
-### HTML Structure
-
-- **Header**: Displays "Welcome Back".
-- **Main**: Contains a form with the following fields:
-  - Email address (required)
-  - Password (required)
-  - Save Password (checkbox)
-  - Log In button
-- **Alternative Login Methods**: Options to sign in with Facebook or Google.
-- **Footer**: Provides a link to the sign-up page.
 
 
 ## GitLab Repository
